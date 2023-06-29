@@ -1,8 +1,176 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
+.u-section-1 .u-sheet-1 {
+  min-height: 1014px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 435px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-gallery-1 {
+  height: 435px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-1 .u-carousel-indicators-1 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-section-1 .u-carousel-item-1 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 30px;
+}
+
+.u-section-1 .u-carousel-control-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-section-1 .u-carousel-control-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 435px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-table-1 {
+  margin: 95px auto 0;
+}
+
+.u-section-1 .u-table-header-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-table-cell-1 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  letter-spacing: 1px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 70px;
+  background-image: none;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  letter-spacing: 1px;
+  background-image: none;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 70px;
+  text-transform: none;
+}
+
+.u-block-d4a7-119 {
+  height: 47px;
+}
+
+.u-section-1 .u-table-2 {
+  margin-top: 62px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-table-header-2 {
+  background-image: none;
+}
+
+.u-block-d4a7-92 {
+  height: 47px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 938px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    position: relative;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 359px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 359px;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-table-2 {
+    height: 395px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 854px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1298px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1069px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-2 .u-custom-html-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .fr-clearfix::after {
   clear: both;
@@ -17378,28 +17546,7 @@ blockquote .small:before {
 .pswp__previews::-webkit-scrollbar {
   display: none;
 }
-/* end previews  */
-/*end-commonstyles photoswipe*/
-/*begin-commonstyles photoswipe-default*/
-/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
-/*
 
-	Contents:
-
-	1. Buttons
-	2. Share modal and links
-	3. Index indicator ("1 of X" counter)
-	4. Caption
-	5. Loading indicator
-	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
-
-*/
-/*
-
-	1. Buttons
-
- */
-/* <button> css reset */
 .pswp__button {
   width: 44px;
   height: 44px;
@@ -19404,14 +19551,14 @@ a.pswp__share--download:hover {
   }
   to {
     transform-origin: center center;
-    transform: translate3d(-50% !important, -50% !important, 0);
+    transform: translate3d(-50%, -50%, 0);
     opacity: 1;
   }
 }
 @keyframes customAnimationOut {
   from {
     transform-origin: center center;
-    transform: translate3d(-50% !important, -50% !important, 0);
+    transform: translate3d(-50%, -50%, 0);
     opacity: 1;
   }
   to {
